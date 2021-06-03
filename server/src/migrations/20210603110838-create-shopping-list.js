@@ -13,11 +13,11 @@ module.exports = {
 				allowNull: false,
 			},
 			date_start: {
-				type: DataTypes.INTEGER,
+				type: DataTypes.DATE,
 				allowNull: false,
 			},
 			date_end: {
-				type: DataTypes.INTEGER,
+				type: DataTypes.DATE,
 				allowNull: false,
 			},
 			created_at: {
